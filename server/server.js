@@ -2,7 +2,8 @@ const port = process.env.PORT || 3000;
 
 const io = require('socket.io')(port, {
   cors: {
-    origin: ['http://localhost:5173']
+    // origin: ['http://localhost:5174']
+    origin: ['https://socket-chat-wds.netlify.app/']
   }
 });
 
