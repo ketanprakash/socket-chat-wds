@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client';
-const socket = io('http://localhost:3000');
+const socket = io('https://drab-ruby-buffalo-toga.cyclic.app/');
 
 const joinRoomButton = document.getElementById('room-button');
 const messageInput = document.getElementById('message-input');
