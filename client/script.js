@@ -1,5 +1,7 @@
 import { io } from 'socket.io-client';
-const socket = io('https://socket-chat-wds.onrender.com/');
+const socket = io('https://socket-chat-wds.onrender.com/', {
+  transports: ["websocket"]
+});
 
 const joinRoomButton = document.getElementById('room-button');
 const messageInput = document.getElementById('message-input');
