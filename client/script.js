@@ -1,5 +1,5 @@
 import { io } from 'socket.io-client';
-const socket = io('https://drab-ruby-buffalo-toga.cyclic.app/', {
+const socket = io('https://socket-chat-wds.onrender.com/', {
   transports: ["websocket"]
 });
 
