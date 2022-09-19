@@ -1,6 +1,6 @@
 {  "scripts": {
     "build": "cd server && npm install",
-    "start": "node server.js"
+    "start": "cd server && node server.js"
   }
 
 }
